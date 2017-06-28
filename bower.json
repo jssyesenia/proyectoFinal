@@ -1,0 +1,22 @@
+{
+  "name": "LuisDaniel",
+  "homepage": "https://github.com/LuisDanielMendez/Proyectodesarrollo9A",
+  "authors": [
+    "LuisDanielMendez <zeuschapter1986@hotmail.com>"
+  ],
+  "description": "proyecto9A",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "fontawesome#^4.7.0"
+  }
+}

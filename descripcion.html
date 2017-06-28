@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My Second Bootstrap Project</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
+     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/style.css">
+  </head>
+  <body>
+    <div class="navbar navbar-inverse navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="#" class="navbar-brand">Concesioraria TecnoSix</a>
+          <!-- Chilaquiles don aquiles -->
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+                </button>
+                <!-- esto sirve para agregar un boton cuando se hace pequeño -->
+        </div>
+        <ul class="nav navbar-nav navbar-right collapse navbar-collapse">
+          <li><a href="index.html">Inicio</a></li>
+          <li> <a href="products.html">Productos</a></li>
+          <li><a href="#">Ofertas</a></li>
+          <li><a href="abaut Us.html">¿Quienes somos?</a></li>
+          <li>
+            <a href="#" data-toggle="modal" data-target="#modal-contact-form">Contactanos <span class="caret"></span></a>
+          </li>
+          <li>
+            <form class="navbar-form" role="search">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search...">
+                <div class="input-group-btn">
+                 <button class="btn btn-default" type="submit">
+                   <i class="glyphicon glyphicon-search"></i>
+                 </button>
+                </div>
+              </div>
+            </form>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <ol class="breadcrumb">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Products.html">Autos</a></li>
+          <li class="active">Caracteristicas</li>
+        </ol>
+      </div>
+      <div class="row">
+        <div class="page-header">
+          <h1>FIGO 2017 <small></small></h1>
+        </div>
+      </div>
+      <div class="row">
+          <div class="col-md-6">
+            <h3>CONOCE LO NUEVO DE FORD</h3>
+            <p class="text-muted">LLEVATELO DESDE $232,700</p>
+          </div>
+          <div class="col-md-6">
+            <div class="btn-group pull-right btn-group-lg ">
+              <button class="btn btn-info">Comprar Ahora!</button>
+              <button class="btn btn-default">Prueba de manejo</button>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div id="carousel-products" class="carousel slide" data-ride="carousel">
+            <!--indicadores-->
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-products" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-products" data-slide-to="1"></li>
+              <li data-target="#carousel-products" data-slide-to="2"></li>
+              <li data-target="#carousel-products" data-slide-to="3"></li>
+              <li data-target="#carousel-products" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="img/Figo.jpeg" alt="" >
+                <div class="carousel-caption">
+                  <p>a nice demo</p>
+                </div>
+              </div>
+              <div class="item ">
+                <img src="img/Figo1.jpeg" alt="" >
+                <div class="carousel-caption">
+                  <p>a nice demo</p>
+                </div>
+              </div>
+              <div class="item ">
+                <img src="img/Figo2.jpeg" alt="" >
+                <div class="carousel-caption">
+                  <p>a nice demo</p>
+                </div>
+              </div>
+              <div class="item ">
+                <img src="img/Figo5.jpeg" alt="" >
+                <div class="carousel-caption">
+                  <p>a nice demo</p>
+                </div>
+              </div>
+              <div class="item ">
+                <img src="img/Figo6.jpeg" alt="" >
+                <div class="carousel-caption">
+                  <p>a nice demo</p>
+                </div>
+              </div>
+            </div>
+            <!--controles-->
+            <a href="#carousel-products" class="left carousel-control" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a href="#carousel-products" class="right carousel-control" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+      </div>
+    <hr />
+      <div class="row">
+        <div class="col-md-6" style="padding-right">
+          <h1>DISEÑO VERSÁTIL</h1>
+          <p>Si es tu primer coche, seguro te va a gustar la versión Hatchback 5 puertas. Serás la sensación entre tus amigos y lo mejor es que, con su diseño deportivo, no parecerá tu primer auto.
+          Si necesitas un gran espacio, la versión Sedán 4 puertas es para ti. Su línea de diseño moderna se acoplará a tu estilo de vida, convirtiéndose en una extensión de ti. Podrás estar cómodo sin dejar de lado la conectividad, el diseño moderno y el manejo avanzado.</p>
+        </div>
+        <div class="col-md-6 visible-md visible-lg">
+            <img src="img/Figo7.jpeg" alt="" width="100%">
+        </div>
+      </div>
+      <hr />
+      <div class="row">
+          <div class="col-md-6" style="padding-right">
+            <h1>SIEMPRE CONECTADO</h1>
+            <p>Con su novedosa Consola Smartphone mantendrás tu teléfono inteligente seguro y bien posicionado para que estés conectado en todo momento con tu círculo social sin perder la atención en el camino. Disponible desde la primera versión. "Único en el segmento".</p>
+          </div>
+          <div class="col-md-6 visible-md visible-lg">
+              <img src="img/Figo8.jpeg" alt="" width="100%">
+          </div>
+        </div>
+    <hr />
+      <div class="row">
+            <div class="col-md-6" style="padding-right">
+              <h1>SIÉNTETE SEGURO EN TODO MOMENTO</h1>
+              <p>Ford Figo ofrece bolsas de aire en todas sus versiones, frenos ABS y una estructura reforzada con acero de alta resistencia, así siempre te sentirás seguro.</p>
+            </div>
+            <div class="col-md-6 visible-md visible-lg">
+                <img src="img/Figo9.jpeg" alt="" width="100%">
+            </div>
+      </div>
+    <hr />
+      <div class="row">
+        <div class="col-md-12">
+          <div class="panel-group" id="accordion" role="tablist">
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingOne">
+                <h4 class="panel-title">
+                 <a href="#collapseOne" role="button" data-toggle="collapse" data-parent="#accordion"><h1>Y SI EL RAYON NO ES TAN CHIQUITO…</h1></a>
+
+                </h4>
+              </div>
+              <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel">
+                <div class="panel-body">
+                 <p> Nuestros técnicos de Body Shop son especialistas en: Reparación Estructural, Hojalatería, Igualación de Color, Aplicación de Pintura, Detallados y Paquetes de Estética</p>
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingTwo">
+                <h4 class="panel-title">
+                  <a href="#collapseTwo" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion">
+                    <h1>GARANTÍA BODY SHOP</h1>
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel">
+                <div class="panel-body">
+                <p>Ford Body Shop te garantiza la calidad de cualquier servicio tanto de mantenimiento como reparación de tu vehículo, teniendo como guía las especificaciones de marca y la instalación de refracciones originales, asegurando de esta manera que tu vehículo se mantenga al 100%</p>
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading" role="#headingThree">
+                <h4 class="panel-title">
+                  <a href="#collapseThree" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion">
+                <h1>AZUL ES EL NUEVO VERDE</h1>
+               </a>
+                </h4>
+              </div>
+              <div id="collapseThree" class="panel-collapse collapse" role="tabpanel">
+                <div class="panel-body">
+                  <p>Ford Motor Company comprometido con el medio ambiente garantiza que nuestros procesos, materiales y equipos están ligados a estrictos estándares de operación ecológica.
+                  Con todo lo anterior Ford Body Shop cumple y excede todas las normatividades de conversación ecológica</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6"></div>
+      </div>
+    <hr />
+      <div class="row">
+        <ul class="pager">
+          <li class="previous"><a href="#">&larr;Previous</a></li>
+          <li class="next"><a href="#">Next&larr;</a></li>
+
+        </ul>
+      </div>
+    </div>
+    <hr />
+    <div class="footer">
+      <p class="text-center lead ">
+      Contactanos atraves de tu email<a href="zeuschapter1986@hotmail.com"></a>
+      </p>
+      <hr/>
+      <ul class="list-unstyled text-center list-inline features">
+        <li>Siguenos en:</li>
+        <li><a href=""><i class="fa fa-facebook-square"></i></a></li>
+        <li><a href=""><i class="fa fa-twitter-square"></i></a></li>
+        <li><a href=""><i class="fa fa-linkedin-square"></i></a></li>
+
+
+      </ul>
+      <p class="text-center text-muted">
+        &copy; Copyright 2017 Derechos reservados por la empresa TecnoSix
+      </p>
+
+    </div>
+    <!-- modal contact form -->
+    <div class="modal fade" id="modal-contact-form" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="close" data-dismiss="modal">&times;</button>
+            <h3>Contactanos</h3>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+              <label for="contact-name" class="form-contact-label">Nombre:</label>
+              <input type="text" class="form-control" id="contact-name">
+
+              </div>
+              <div class="form-group">
+                <label for="contact-email" class="form-control-label">Email:</label>
+                <input type="email" class="form-control" id="contact-email">
+              </div>
+              <div class="form-group">
+                <label for="contact-message" class="form-control-label">Mensaje</label>
+                <textarea name="" id="contact-message" cols="30" rows="10" class="form-control"></textarea>
+              </div>
+              <div class="form-group">
+                <div class="controls">
+                  <input type="submit" class="btn btn-primary" value="Enviar Mensaje">
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+<script>
+  $(document).ready(function(){
+    $('.carousel').carousel({
+      interval: 1000
+    });
+  });
+</script>
+
+
+  </body>
+</html>
